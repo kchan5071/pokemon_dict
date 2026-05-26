@@ -1,0 +1,97 @@
+{
+    "1": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/1/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/bulbasaur",
+        "name": "bulbasaur"
+    },
+    "2": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/2/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/ivysaur",
+        "name": "ivysaur"
+    },
+    "3": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/3/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/venusaur",
+        "name": "venusaur"
+    },
+    "4": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/4/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/charmander",
+        "name": "charmander"
+    },
+    "5": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/5/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/charmeleon",
+        "name": "charmeleon"
+    },
+    "6": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/6/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/charizard",
+        "name": "charizard"
+    },
+    "7": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/7/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/squirtle",
+        "name": "squirtle"
+    },
+    "8": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/8/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/wartortle",
+        "name": "wartortle"
+    },
+    "9": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/9/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/blastoise",
+        "name": "blastoise"
+    },
+    "10": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/10/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/caterpie",
+        "name": "caterpie"
+    },
+    "11": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/11/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/metapod",
+        "name": "metapod"
+    },
+    "12": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/12/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/butterfree",
+        "name": "butterfree"
+    },
+    "13": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/13/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/weedle",
+        "name": "weedle"
+    },
+    "14": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/14/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/kakuna",
+        "name": "kakuna"
+    },
+    "15": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/15/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/beedrill",
+        "name": "beedrill"
+    },
+    "16": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/16/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/pidgey",
+        "name": "pidgey"
+    },
+    "17": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/17/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/pidgeotto",
+        "name": "pidgeotto"
+    },
+    "18": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/18/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/pidgeot",
+        "name": "pidgeot"
+    },
+    "19": {
+        "api_url": "https://pokeapi.co/api/v2/pokemon/19/",
+        "local_file_path": "/home/kzchan/test/pokemon_dict/cache/rattata",
+        "name": "rattata"
+    }
+}
