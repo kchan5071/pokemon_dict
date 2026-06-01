@@ -4,7 +4,7 @@ from data_manager import DataManager
 from frontend.saved_frame import SavedFrame
 
 customtkinter.set_appearance_mode("Dark")  # Modes: "System" (standard), "Dark", "Light"
-customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
+customtkinter.set_default_color_theme("dark-blue")  # Themes: "blue" (standard), "green", "dark-blue"
 
 WINDOW_WIDTH = 1100
 WINDOW_HEIGHT = 580
@@ -16,9 +16,17 @@ ITEMS_PER_PAGE = 20
 FRAMES = [
     "SEARCH",
     "SAVED",
-    "EXPORT/IMPORT",
+    "IMPORT/EXPORT",
     "CURRENT TEAM",
     "SETTINGS",
+]
+
+FRAME_DISPLAY_NAMES = [
+    "Search Pokemon",
+    "Saved Pokemon",
+    "Import/Export",
+    "Current Team",
+    "Settings"
 ]
 
 class App(customtkinter.CTk):
@@ -231,6 +239,7 @@ class App(customtkinter.CTk):
         button = customtkinter.CTkButton(
             self.sidebar_frame,
             command=lambda: self.select_frame(FRAMES[row - 1]),
+            text=FRAME_DISPLAY_NAMES[row - 1]
         )
         button.grid(row=row, column=0, padx=20, pady=10)
         self.buttons.append(button)
@@ -264,7 +273,7 @@ class App(customtkinter.CTk):
             frame_widget[1].grid_forget()
 
         # 3. Show the selected frame and highlight its corresponding button
-        for frame_name, frame in zip(FRAMES, self.content_frames):
+        for frame_name, display_name,frame, in zip(FRAMES, FRAME_DISPLAY_NAMES, self.content_frames):
             if frame_name == name:
                 self.current_frame = frame_name
                 if frame_name != "SAVED":
